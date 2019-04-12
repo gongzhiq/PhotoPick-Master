@@ -67,7 +67,7 @@ implementation 'com.lovedise:permissiongen:0.1.1'
 implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.9.0'
 implementation "com.android.support:support-v4:${rootProject.ext.android.supportVersion}"
 //图库
-implementation 'com.github.Awent:PhotoPick-Master:v2.04'
+implementation 'com.github.gongzhiq:PhotoPick-Master:v2.05'
 
 ```
 
