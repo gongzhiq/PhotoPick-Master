@@ -520,6 +520,10 @@ public class PhotoPagerActivity extends FrescoBaseActivity implements ViewPager.
     }
 
     private void saveImageDialog() {
+        if (this == null) {
+            return;
+        }
+        
         new AlertDialog.Builder(this)
                 .setItems(new String[]{getString(R.string.save_big_image)}, new DialogInterface.OnClickListener() {
                     @Override
