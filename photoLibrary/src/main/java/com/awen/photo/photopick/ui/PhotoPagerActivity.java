@@ -523,7 +523,7 @@ public class PhotoPagerActivity extends FrescoBaseActivity implements ViewPager.
         if (this == null) {
             return;
         }
-        Toast.makeText(PhotoPagerActivity.this, "代码已修改", Toast.LENGTH_SHORT).show();
+        
         new AlertDialog.Builder(this)
                 .setItems(new String[]{getString(R.string.save_big_image)}, new DialogInterface.OnClickListener() {
                     @Override
